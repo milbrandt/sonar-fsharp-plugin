@@ -2,11 +2,16 @@
 
 ## v 3.2.x
 
+- Update some dependencies
+- Minimal version supported of SonarQube 8.9.0.43852
+
+## v3.2.389
+
 - F# part as .NET 5.0 library (including nuget package), Nuget as netstandard2.0,  netstandard2.1 and net50
 
-## v 3.1.384
+## v3.1.384
 
-- BREAKING: Version numbering changed to Sematic Versioning 2.0 https://semver.org/ to expose FsSonarRunner as Nuget package
+- BREAKING: Version numbering changed to Sematic Versioning 2.0 <https://semver.org/> to expose FsSonarRunner as Nuget package
 - Build Nuget package of FsSonarRunnerCore
 - Remove use of API which was in SonarQube 7.9 already deprecated (be ready for SonarQube 9.x)
 - Update of FSharpLint t0 0.16.5

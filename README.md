@@ -25,8 +25,8 @@ Download latest snapshot from Appveyor: <https://ci.appveyor.com/project/jorgeco
 
 ### Requirements
 
-- Minimal supported version of SonarQube: 7.9.5 LTS
-- Working on SonarQube 8.x
+- Minimal supported version of SonarQube: 8.9.0 LTS
+- Working on SonarQube 9.x
 - Analyzer uses .NET 5.0, the corresponding depencies of .NET
   needs to be installed (especially on Linux). .NET Core is not
   required to be installed, as the application is _self-contained_.
